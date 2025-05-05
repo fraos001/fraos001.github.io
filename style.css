@@ -38,6 +38,7 @@ body {
 
 .button-row a {
     color: black;
+    font-size: 20px;
 }
 
 .button-row a:hover {
@@ -81,3 +82,23 @@ body {
   .album-grid img:hover {
     transform: scale(1.05);
   }
+  
+ .media-section img{
+  width: 90%;
+  height: auto;
+  padding: 10px;
+ }
+ .media-section iframe{
+    padding: 10px;
+    border: 0;
+    height: 200%;
+    width: 400%;
+ }
+
+ .info-box2{
+    width: 1500px;
+    padding: 20px;
+    border: 1px solid;
+    border-color: black;
+    margin-left: 10px;
+}
