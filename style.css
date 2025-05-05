@@ -37,7 +37,7 @@ body {
 }
 
 .divider {
-    width: 200%;
+    width: 125%;
     margin: 10px 0;
     border: 1px solid #000;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .main-content {
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 .section-title {
