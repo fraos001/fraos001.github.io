@@ -22,7 +22,7 @@ body {
 }
 
 .info-box {
-    width: 250px;
+    width: 350px;
     padding: 20px;
     border: 1px solid;
     border-color: black;
@@ -76,29 +76,47 @@ body {
     object-fit: cover;
     border-radius: 4px;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.1s;
   }
   
   .album-grid img:hover {
     transform: scale(1.05);
   }
-  
+ 
+  .media-section{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
  .media-section img{
-  width: 90%;
+  width: 80%;
   height: auto;
   padding: 10px;
  }
  .media-section iframe{
     padding: 10px;
     border: 0;
-    height: 200%;
+    height: 50%;
     width: 400%;
  }
 
  .info-box2{
-    width: 1500px;
+    width: 1200px;
     padding: 20px;
     border: 1px solid;
     border-color: black;
     margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
 }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
