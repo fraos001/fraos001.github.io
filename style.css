@@ -43,3 +43,41 @@ body {
 .button-row a:hover {
     color: #5a5a5a;
   }
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+ .latest-releases {
+    width: 80%; /* Adjust the width of the releases section */
+    padding: 10px;
+  }
+  
+  .latest-releases h2 {
+    margin-bottom: 15px;
+  }
+  
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  
+  .album-grid a {
+    display: block;
+  }
+  
+  .album-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .album-grid img:hover {
+    transform: scale(1.05);
+  }
